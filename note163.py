@@ -10,8 +10,8 @@ user=""
 passwd=""
 
 if(user=="",passwd==""):
-    user = input("账号:")
-    passwd = input("密码:")
+    user = input()
+    passwd = input()
 
  
 def main():
