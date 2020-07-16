@@ -13,7 +13,9 @@ if(user=="",passwd==""):
     user = input("账号:")
     passwd = input("密码:")
 
+ 
 def main():
+    print(user+":"+passwd)
     noteyoudao("",user,passwd)
 
 def noteyoudao(YNOTE_SESS: str, user: str, passwd: str):
