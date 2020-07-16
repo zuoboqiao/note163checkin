@@ -16,7 +16,7 @@ if(user=="",passwd==""):
  
 def main():
     print(user+":"+passwd)
-    noteyoudao("",user,passwd)
+    noteyoudao(cookie,user,passwd)
 
 def noteyoudao(YNOTE_SESS: str, user: str, passwd: str):
     s = requests.Session()
