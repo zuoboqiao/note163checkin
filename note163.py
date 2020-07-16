@@ -5,6 +5,7 @@ import time
 
 # note.youdao.com 有道云笔记签到
 
+cookie="v2|t4SUPDf5LpyPLPyOMQuRP4kMwLkfkfROYO4Q4O4PuRUMP4YEOLp4RgBPLlG0MpyRYY0fwZ64OG0zEn4eu64kY0OfP46BhHlE0"
 user=""
 passwd=""
 
@@ -13,7 +14,7 @@ if(user=="",passwd==""):
     passwd = input("密码:")
 
 def main():
-    noteyoudao("v2|t4SUPDf5LpyPLPyOMQuRP4kMwLkfkfROYO4Q4O4PuRUMP4YEOLp4RgBPLlG0MpyRYY0fwZ64OG0zEn4eu64kY0OfP46BhHlE0",user,passwd)
+    noteyoudao("",user,passwd)
 
 def noteyoudao(YNOTE_SESS: str, user: str, passwd: str):
     s = requests.Session()
