@@ -5,7 +5,14 @@ import time
 
 # note.youdao.com 有道云笔记签到
 
+user=""
+passwd=""
 
+if(user=="",passwd==""):
+    user = input("账号:")
+    passwd = input("密码:")
+
+    
 def noteyoudao(YNOTE_SESS: str, user: str, passwd: str):
     s = requests.Session()
     checkin_url = 'http://note.youdao.com/yws/mapi/user?method=checkin'
@@ -48,4 +55,6 @@ def noteyoudao(YNOTE_SESS: str, user: str, passwd: str):
             noteyoudao(YNOTE_SESS, user, passwd)
             return YNOTE_SESS
 
+if __name__ == "__main__":
+    noteyoudao("",user,passwd)
 
