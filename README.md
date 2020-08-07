@@ -24,7 +24,7 @@ python源码copy于(https://github.com/lepecoder/checkin)
 ## 四、查看运行结果
 Actions > note163Checkin > build  
 能看到如下图所示，表示成功  
-![](https://note.youdao.com/yws/public/resource/17edb8861d2106a5c39ec94d91919150/xmlnote/48958A4994D64C20867281B67B7CDAFD/1059)
+![](http://note.youdao.com/yws/public/resource/17edb8861d2106a5c39ec94d91919150/xmlnote/48958A4994D64C20867281B67B7CDAFD/1059)
 
 此后，将会在每天10:00签到一次  
 若有需求，可以在[.github/workflows/main.yml]中自行修改
