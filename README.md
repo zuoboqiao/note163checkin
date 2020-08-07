@@ -1,4 +1,4 @@
-# note163chickin
+# note163checkin
 代码复制的别人的，我只是稍作修改，不能用了我也不会修
 ## 目前暂时能用
 python源码copy于(https://github.com/lepecoder/checkin)
@@ -22,7 +22,7 @@ python源码copy于(https://github.com/lepecoder/checkin)
 ![](http://tu.yaohuo.me/imgs/2020/06/34ca160c972b9927.png)
 
 ## 四、查看运行结果
-Actions > Cloud189Checkin > build  
+Actions > note163Checkin > build  
 能看到如下图所示，表示成功  
 ![](http://tu.yaohuo.me/imgs/2020/06/b9e596c99f3835e0.png)
 
